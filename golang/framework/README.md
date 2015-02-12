@@ -14,10 +14,10 @@
     tats -- 统计服务器（UDP)
     	protos -- 协议相关处理，协议号和对应的处理函数
     agent -- GAME服务器
+    	stats_client -- 统计服务器客户端程序
  ==========未实现==========
     gamedata -- 游戏数值处理
-    stats -- 统计服务器
-    
+      
     scripts -- awk bash 脚本
     event -- EVENT服务器
     inspect -- Telnet Console for GS
