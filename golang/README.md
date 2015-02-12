@@ -5,3 +5,4 @@
 |labs002|简单的rest程序<br>只有get请求<br>有参数检查功能<br>|
 |labs003|实现的快速排序<br>[详细](http://studygolang.com/articles/992)|
 |labs004|Golang类似Node.js的Event|
+|[framework](https://github.com/NicholeGit/notes/tree/master/golang/framework)|简单的框架：<br>1.访问mongodb数据库<br>2.网络层<br>3.包解析和序列化<br>4.读ini文件|
