@@ -5,6 +5,7 @@
 	helper -- 辅助函数，candy funcs....
     	stack.go -- 打印堆栈消息
         profilingtool.go -- 打印GC相关信息
+		rand.go	-- 全局快速随机数发生器
 	hub -- HUB服务器
     	sys.go -- 系统goroutine打印系统状态和gc
 	misc -- 算法等
@@ -17,7 +18,7 @@
     	stats_client -- 统计服务器客户端程序
  ==========未实现==========
     gamedata -- 游戏数值处理
-      
+
     scripts -- awk bash 脚本
     event -- EVENT服务器
     inspect -- Telnet Console for GS
