@@ -24,6 +24,7 @@ func main() {
 	// start basic services
 	startup()
 
+	// TODO 现在下面没有实际作用,只是用来做无限等待，将来会加上逻辑
 	// Listen
 	config := cfg.Get()
 	service := ":8080"
@@ -47,6 +48,7 @@ func main() {
 			continue
 		}
 		_ = conn
+		// TODO 会加上逻辑
 		//		go handleClient(conn)
 	}
 
