@@ -14,10 +14,10 @@
 	types -- 玩家数据结构
     tats -- 统计服务器（UDP)
     	protos -- 协议相关处理，协议号和对应的处理函数
-    agent -- GAME服务器
+    agent -- GAME服务器(UDP)
     	stats_client -- 统计服务器客户端程序
+	gamedata -- 提供一个类似的内存二维表。
  ==========未实现==========
-    gamedata -- 游戏数值处理
 
     scripts -- awk bash 脚本
     event -- EVENT服务器

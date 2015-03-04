@@ -104,7 +104,7 @@ func stats_sender() {
 					Send(packet.Pack(Code["set_adds_req"], &accum, nil))
 				}
 			}
-			_accum_buffer = make(map[string]map[string]int32)
+			_accum_buffer = make(map[string]map[string]int32) //重新初始化
 
 			// 更新
 			update := SET_UPDATE_REQ{}
@@ -113,7 +113,7 @@ func stats_sender() {
 					Send(packet.Pack(Code["set_update_req"], &update, nil))
 				}
 			}
-			_update_buffer = make(map[string]map[string]string)
+			_update_buffer = make(map[string]map[string]string) //重新初始化
 
 			// FINI
 			config := cfg.Get()
