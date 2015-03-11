@@ -1,6 +1,6 @@
 框架源码
 <pre>
-	cfg -- config.ini 读取
+	cfg -- config.ini 读取, 写log
 	db -- 数据库驱动
 	helper -- 辅助函数，candy funcs....
     	stack.go -- 打印堆栈消息
