@@ -46,7 +46,7 @@ func _load_config(path string) (ret map[string]string) {
 		log.Println(path, err)
 		return
 	}
-
+	defer f.Close()
 	re := regexp.MustCompile(`[\t ]*([0-9A-Za-z_]+)[\t ]*=[\t ]*([^\t\n\f\r# ]+)[\t #]*`)
 
 	// using scanner to read config file
