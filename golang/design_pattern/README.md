@@ -28,8 +28,8 @@
 	- 动态地给一个对象添加一些额外的职责。就增加功能来说，Decorator模式相比生成子类更为灵活。
 - 桥模式（Bridge）；
 	- 将抽象部分与实现部分分离，使它们都可以独立的变化。
-	![Bridge01](img/Bridge01.jpg)
-    *注解：NImpLog（.net平台）  JImpLog(java平台)*
+	![Bridge01](img/Bridge01.jpg)<br>
+    *注解：NImpLog（.net平台）  JImpLog(java平台)*<br>
     Log只需要对ImpLog的接口进行编程，当有新的平台log时，只需要实现新的ImpLog传递给Log就可以完成新的平台Log
 - 组合模式（Composite）；
 	- 将对象组合成树形结构以表示“部分-整体”的层次结构。Composite模式使得用户对单个对象和组合对象的使用具有一致性。
