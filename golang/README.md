@@ -6,3 +6,4 @@
 |labs003|实现的快速排序<br>[详细](http://studygolang.com/articles/992)|
 |labs004|Golang类似Node.js的Event|
 |[framework](https://github.com/NicholeGit/notes/tree/master/golang/framework)|简单的框架：<br>1.访问mongodb数据库<br>2.网络层<br>3.包解析和序列化<br>4.读ini文件|
+|[design_pattern](https://github.com/NicholeGit/notes/tree/master/golang/design_pattern)|golan中设计模式|
